@@ -65,12 +65,6 @@ test('second ui test', async ({ page }) => {
         documentsRequest.click()
       ]);
     const text = await childPage.locator(".red").textContent();
-
-    //await childPage.waitForLoadState();
-   await childPage.pause();
-    
-
-
-    });
- // await page.pause();
+});
+ 
 
