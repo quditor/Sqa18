@@ -43,6 +43,8 @@ A hands-on **Playwright** end-to-end testing project built for learning and prac
    ```bash
    git clone https://github.com/<your-username>/End-to-end-automation_testing-for-learning-purpose.git
    cd End-to-end-automation_testing-for-learning-purpose
+   git clone https://github.com/quditor/playwright-e2e-automation.git
+   cd playwright-e2e-automation
    ```
 
 2. **Install dependencies**
