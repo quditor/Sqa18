@@ -2,7 +2,7 @@ const {test, expect} = require('@playwright/test');
 const {LoginPage} = require('../pageObjects/LoginPage');
 const {POManager} = require('../pageObjects/POManager');
 
-test.only('verify order creation successfully', async ({ page }) => {
+test('verify order creation successfully', async ({ page }) => {
   const productName = 'iphone 13 pro';
   /*await page.goto('https://rahulshettyacademy.com/client');
   await page.getByPlaceholder('email@example.com').fill('nadamo8472@meonvr.com');
