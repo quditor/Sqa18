@@ -1,5 +1,4 @@
 // @ts-check
-import { defineConfig, devices } from '@playwright/test';
 require('dotenv').config();
 
 /**
@@ -7,7 +6,7 @@ require('dotenv').config();
  */
 const config = ({
   testDir: './tests',
-  timeout: 80 * 1000, // Total test timeout
+  timeout: 50 * 1000, // Total test timeout
   expect: {
     timeout: 5000
   },
